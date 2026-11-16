@@ -1,0 +1,16 @@
+初中免费试卷下载器
+
+快速开始：
+1. Windows 安装 Python 3.10+，安装时勾选 Add Python to PATH。
+2. 双击 install_requirements.bat。
+3. 双击 app.py 启动软件。
+4. 选择年级、学科，输入关键词，点击“搜索试卷”。
+5. 选择搜索结果，点击“下载选中”或“批量下载全部”。
+6. 文件保存在“文档\初中免费试卷\年级\学科”。
+
+制作独立 EXE：在 Windows 上双击 build_windows.bat，生成文件位于 dist 文件夹。
+
+本软件只下载公开可访问的 PDF、DOC、DOCX，不破解会员、不绕过登录、验证码或付费墙。只接受搜索标题/摘要明确出现 2025-01-01 以后日期的结果。文件通过结构检查后仍应人工打开核对页数和内容完整性。
+
+【不安装 Python 在线生成 EXE】
+项目包含 .github/workflows/build-windows.yml。把整个项目上传到自己的 GitHub 仓库，打开 Actions，选择 Build Windows EXE，点击 Run workflow。构建完成后，在运行记录底部 Artifacts 下载“初中免费试卷下载器-Windows-x64”，解压即可取得 EXE。
